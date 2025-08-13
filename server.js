@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname,'style.css')));
 
 // routes
 app.get('/',(req,res)=>{
-    res.render('index',{title:'Home'});
+    res.render('home',{title:'Home'});
 });
 app.get('/services',(req,res)=>{
     res.render('service',{title:'Our services'});
